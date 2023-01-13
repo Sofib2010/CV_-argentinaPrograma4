@@ -1,0 +1,45 @@
+#formContacto {
+    display: none;
+    background-color:#cdeaea8d;
+    flex-direction: between;
+}
+
+body{
+    background-color: #f5ffff;
+    display: grid;
+}
+
+
+
+.prueba {
+    background-color: steelblue;
+
+    
+}
+
+.info{
+    word-wrap: break-word ;
+}
+
+#fotito{
+    padding: 1px;
+    margin: auto;
+    width:400px; 
+    height:auto;
+}
+
+#fotito:hover{
+    transform:translateY(-15px);
+}
+
+#fotito::before{
+    content: ' ';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color:aqua;
+
+
+}
